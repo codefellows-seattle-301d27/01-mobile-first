@@ -13,6 +13,7 @@
 .icon-menu {
   font-size: 2em;
   float: right;
+  display: none;
 }
 
 .main-nav {
@@ -20,7 +21,6 @@
 }
 
 .main-nav ul {
-  display: none;
   padding: 0;
   list-style: none;
   clear: both;
@@ -31,6 +31,7 @@
 }
 
 .main-nav li {
+  display: inline-block;
   margin-right: .4em;
   font-size: 1.5em;
   padding: .5em .2em;
@@ -60,3 +61,25 @@
          - Main should be all on one row, with padding spaced better for a larger screen.
          - Just, ya know, try to make it look good! */
 /* @media only screen... */
+/*Done*/
+@media(max-width: 640px) {
+  .icon-menu {
+    display: inline-block;
+  }
+
+  .main-nav li {
+    display: none;
+    padding: 1em;
+  }
+
+  .main-nav ul {
+    padding: 0;
+    list-style: none;
+    clear: both;
+  }
+
+  .main-nav:hover ul li {
+    display: block;
+  }
+}
+  
