@@ -11,6 +11,18 @@ hr {
   width: 80%;
 }
 
+@media only screen and (max-width: 640px) {
+  img {
+    width: 100%;
+  }
+}
+
+img {
+  max-width: 100%;
+  clear: both;
+  margin: 10px;
+}
+
 /*TEXT STYLES
 =======================================*/
 p {
