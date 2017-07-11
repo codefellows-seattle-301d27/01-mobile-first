@@ -28,6 +28,10 @@
     float: none;
   }
 
+  .icon-menu {
+    display: none;
+  }
+
   #filters select {
     width: 15em;
     margin: .2em .2em;
