@@ -15,11 +15,7 @@
   /*border: solid 1px black */
 }
 
-@media only screen and (min-width: 730px) {
-  .main-nav li {
-    display: inline-block;
-  }
-}
+
 
 .main-nav ul {
   display: none;
@@ -27,6 +23,21 @@
   list-style: none;
   clear: both;
 }
+
+
+@media only screen and (min-width: 640px) {
+  .main-nav ul {
+    display: block
+  }
+  .main-nav li {
+    display: inline-block;
+    width: 22%;
+    box-sizing: border-box;
+    padding: 25px;
+  }
+}
+
+
 
 .main-nav:hover ul {
   display: block;
