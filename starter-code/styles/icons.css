@@ -38,12 +38,22 @@
 .icon-power:before {
 	content: "\e90a";
 }
+
+
 .icon-menu:before {
 	content: "\e902";
-	font-size: 500%;
+	font-size: 300%;
 	float: right;
 	margin-right: 10px;
 }
+
+
+@media only screen and (min-width: 640px) {
+  .icon-menu:before {
+  	display: none;
+  }
+}
+
 .icon-link:before {
 	content: "\e903";
 }
