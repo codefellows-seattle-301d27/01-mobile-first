@@ -11,6 +11,12 @@ hr {
   width: 80%;
 }
 
+@media only screen and (max-width: 730px) {
+  img {
+    width: 100%;
+  }
+}
+
 img {
   max-width: 100%;
   clear: both;
