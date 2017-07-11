@@ -52,9 +52,6 @@
   text-decoration: none;
 }
 
-/* TODO: Now add styles for how things should look on a larger screen
-         - Main should be all on one row, with padding spaced better for a larger screen.
-         - Just, ya know, try to make it look good! */
 @media (min-width:600px) {
    nav .icon-menu {
      display:none;
