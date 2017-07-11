@@ -2,13 +2,17 @@
   background: #FFEAAA;
 }
 
-/* REVIEW: Float the main header to the left, to make room for the hamburger menu. */
 .heading-group-h1 {
   float: left;
   padding: 0 0 .2em 1em;
 }
 
 /* TODO: Add styles for the icon-menu class. It should be bigger, and off to the right. */
+.icon-menu {
+  float :right;
+  font-size: 40px;
+  padding: 2%;
+}
 
 .main-nav {
   padding: 0.1em;
