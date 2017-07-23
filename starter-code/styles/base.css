@@ -1,4 +1,4 @@
-/* TODO: Add a rule for images, so they never exceed their container's width. */
+/* DONE: Add a rule for images, so they never exceed their container's width. */
 
 body {
   line-height: 1.5;
@@ -9,6 +9,18 @@ body {
 hr {
   margin: 1em;
   width: 80%;
+}
+
+@media only screen and (max-width: 640px) {
+  img {
+    width: 100%;
+  }
+}
+
+img {
+  max-width: 100%;
+  clear: both;
+  margin: 10px;
 }
 
 /*TEXT STYLES
