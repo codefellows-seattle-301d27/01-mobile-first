@@ -12,7 +12,6 @@
 
 .main-nav {
   padding: 0.1em;
-  /*border: solid 1px black */
 }
 
 
@@ -69,7 +68,7 @@
   text-decoration: none;
 }
 
-/* TODO: Now add styles for how things should look on a larger screen:
+/* DONE: Now add styles for how things should look on a larger screen:
          - Hide the hamburger.
          - Main should be all on one row, with padding spaced better for a larger screen.
          - Just, ya know, try to make it look good! */
