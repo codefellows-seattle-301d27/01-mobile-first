@@ -8,11 +8,10 @@
   padding: 0 0 .2em 1em;
 }
 
-/* TODO: Add styles for the icon-menu class. It should be bigger, and off to the right. */
+/* DONE: Add styles for the icon-menu class. It should be bigger, and off to the right. */
 
 .main-nav {
   padding: 0.1em;
-  /*border: solid 1px black */
 }
 
 
@@ -48,7 +47,6 @@
   font-size: 1.5em;
   padding: .5em .2em;
   border-bottom: 1px solid #ccc;
-  /*display: inline-block;*/
 }
 
 #filters {
