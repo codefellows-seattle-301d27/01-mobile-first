@@ -14,12 +14,29 @@
   padding: 0.1em;
 }
 
+
+
 .main-nav ul {
   display: none;
   padding: 0;
   list-style: none;
   clear: both;
 }
+
+
+@media only screen and (min-width: 640px) {
+  .main-nav ul {
+    display: block
+  }
+  .main-nav li {
+    display: inline-block;
+    width: 22%;
+    box-sizing: border-box;
+    padding: 25px;
+  }
+}
+
+
 
 .main-nav:hover ul {
   display: block;
@@ -30,6 +47,7 @@
   font-size: 1.5em;
   padding: .5em .2em;
   border-bottom: 1px solid #ccc;
+  /*display: inline-block;*/
 }
 
 #filters {
@@ -50,7 +68,7 @@
   text-decoration: none;
 }
 
-/* TODO: Now add styles for how things should look on a larger screen:
+/* DONE: Now add styles for how things should look on a larger screen:
          - Hide the hamburger.
          - Main should be all on one row, with padding spaced better for a larger screen.
          - Just, ya know, try to make it look good! */
