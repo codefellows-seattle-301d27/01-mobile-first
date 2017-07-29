@@ -8,7 +8,7 @@
   padding: 0 0 .2em 1em;
 }
 
-/* TODO: Add styles for the icon-menu class. It should be bigger, and off to the right. */
+/* TODO: DONE Add styles for the icon-menu class. It should be bigger, and off to the right. */
 .icon-menu {
   font-size: 2em;
   display: block;
@@ -80,4 +80,3 @@
     padding-left: 30%;
   }
 }
-
